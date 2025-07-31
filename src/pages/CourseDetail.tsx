@@ -42,8 +42,15 @@ const coursesData = {
   "Installing Packages using pip",
   "Mini Projects: Calculator, To-Do App, File Organizer"
 ],
-    skills: ["HTML/CSS", "JavaScript", "React", "Node.js", "MongoDB", "Git"],
-    schedule: "Monday, Wednesday, Friday - 7:00 PM to 9:00 PM",
+    skills: [
+  "Python Programming Fundamentals",
+  "Data Types & Control Flow",
+  "Functions & File Handling",
+  "Basic OOP Concepts",
+  "Exception Handling",
+  "Mini Projects"
+],
+    schedule: "Sunday and Sturday 3hrs",
     nextStart: ""
   },
   "data-science": {
@@ -87,8 +94,15 @@ const coursesData = {
       "Real-world Use Cases & Final Project",
       "Preparing for GCP Job Roles and Certification"
     ],
-    skills: ["Python", "Pandas", "Machine Learning", "Statistics", "Data Visualization", "SQL"],
-    schedule: "Tuesday, Thursday - 6:30 PM to 9:00 PM",
+    skills: [
+  "Virtual Machine Setup (GCE)",
+  "IAM & Role Management",
+  "Cloud Storage & Networking",
+  "Load Balancing & Autoscaling",
+  "Monitoring & Billing",
+  "GCP Security Tools"
+],
+    schedule: "Sunday and Sturday 3hrs",
     nextStart: ""
   },
   "digital-marketing": {
@@ -125,8 +139,15 @@ const coursesData = {
   "Production Deployment Use Cases"
 ],
 
-    skills: ["SEO", "Google Ads", "Social Media", "Content Marketing", "Analytics", "Email Marketing"],
-    schedule: "Saturday - 10:00 AM to 2:00 PM",
+    skills: [
+  "EC2, S3 & RDS Usage",
+  "VPC & Network Setup",
+  "Serverless Functions (Lambda)",
+  "Load Balancer & API Gateway",
+  "CI/CD Deployment Flow",
+  "Observability & Monitoring"
+],
+    schedule: "Sunday and Sturday 3hrs",
     nextStart: "February 10, 2024"
   },
   "graphic-design": {
@@ -165,17 +186,24 @@ const coursesData = {
       "Using Find Command and Boot Process",
       "Intro to Running Linux Containers"
     ],
-    skills: ["Photoshop", "Illustrator", "InDesign", "Typography", "Brand Design", "UI Design"],
-    schedule: "Monday, Wednesday - 6:00 PM to 8:30 PM",
+    skills: [
+  "Linux Command Line Basics",
+  "User & Group Management",
+  "File Permissions & ACL",
+  "System Services & Daemons",
+  "SSH Configuration",
+  "Backup & Networking"
+],
+    schedule: "Sunday and Sturday 3hrs",
     nextStart: "February 20, 2024"
   },
   "mobile-development": {
     title: "Ansible Automation",
     description: "Learn how to automate IT infrastructure using Ansible. Understand playbooks, roles, inventory files, and real-world automation tasks for system provisioning and configuration management.",
-    duration: "14 weeks",
-    students: 1450,
+    duration: "8 weeks",
+    students: "80+",
     rating: 4.7,
-    level: "Intermediate to Advanced",
+    level: "Basic to Advanced",
     price: "₹8,000",
     mentor: {
       name: "David Kim",
@@ -185,20 +213,27 @@ const coursesData = {
       bio: "David has developed mobile applications for millions of users across various industries. He's an expert in cross-platform development and has published several apps that have reached the top charts in app stores."
     },
     syllabus: [
-      "Mobile Development Fundamentals",
-      "React Native Framework",
-      "Flutter Development",
-      "Native iOS Development (Swift)",
-      "Native Android Development (Kotlin)",
-      "Mobile UI/UX Design Principles",
-      "API Integration & Data Management",
-      "Device Features & Permissions",
-      "App Store Deployment",
-      "Mobile App Project Portfolio"
-    ],
-    skills: ["React Native", "Flutter", "Swift", "Kotlin", "Mobile UI/UX", "App Store Deployment"],
-    schedule: "Tuesday, Thursday, Saturday - 7:00 PM to 9:00 PM",
-    nextStart: "March 5, 2024"
+  "Introduction to Configuration Management & Ansible",
+  "Installing and Setting Up Ansible",
+  "Creating and Using Inventory Files",
+  "Writing Basic YAML Playbooks",
+  "Using Ansible Modules and Ad-Hoc Commands",
+  "Working with Variables and Conditionals",
+  "Creating Roles and Organizing Playbooks",
+  "Looping, Handlers, and Notifications",
+  "Securing Secrets with Ansible Vault",
+  "Deploying Real-world Apps Using Playbooks"
+],
+    skills: [
+  "Infrastructure Automation with Ansible",
+  "Writing Playbooks & Tasks",
+  "Inventory & Role Management",
+  "Configuration Management",
+  "Deploying Applications",
+  "Real-time Use Cases"
+],
+    schedule: "Sunday and Sturday 3hrs",
+    nextStart: ""
   }
 };
 
@@ -382,7 +417,7 @@ const CourseDetail = () => {
                   size="lg" 
                   variant="accent" 
                   className="w-full"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdytBZUV0mkzN96Lx5tPSgkQnSfH8YnVNwuE1qHpq6UAVx2pQ/viewform', '_blank')}
                 >
                   Enroll Now - {course.price}
                 </Button>

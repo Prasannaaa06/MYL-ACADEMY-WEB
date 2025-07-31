@@ -14,7 +14,7 @@ const courses = [
     id: "data-science",
     title: "GCP Essentials",
     description: "Learn the core services of Google Cloud Platform including Compute Engine, Cloud Storage, App Engine, and networking. Get hands-on experience with cloud infrastructure, deployment, and scaling.",
-    duration: "16 weeks",
+    duration: "12 weeks",
     students: 1850,
     rating: 4.7,
   },
@@ -22,7 +22,7 @@ const courses = [
     id: "digital-marketing",
     title: "AWS Essentials",
     description: "Understand the basics of Amazon Web Services including EC2, S3, IAM, VPC, and Lambda. This course provides practical knowledge of cloud infrastructure, deployment, and scaling in AWS environments.",
-    duration: "8 weeks",
+    duration: "12 weeks",
     students: 3120,
     rating: 4.6,
   },
@@ -30,7 +30,7 @@ const courses = [
     id: "graphic-design",
     title: "Linux RHEL",
     description: "Master essential Linux commands, user and file management, permissions, networking, and system services with a focus on Red Hat Enterprise Linux. Ideal for IT beginners and aspiring system admins.",
-    duration: "10 weeks",
+    duration: "12 weeks",
     students: 1960,
     rating: 4.9,
   },
@@ -38,10 +38,11 @@ const courses = [
     id: "mobile-development",
     title: "Ansible Automation",
     description: "Learn how to automate IT infrastructure using Ansible. Understand playbooks, roles, inventory files, and real-world automation tasks for system provisioning and configuration management.",
-    duration: "14 weeks",
+    duration: "12 weeks",
     students: 1450,
     rating: 4.7,
   },
+  
 ];
 
 const Courses = () => {

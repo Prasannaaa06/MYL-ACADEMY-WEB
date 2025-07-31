@@ -6,32 +6,20 @@ import { GraduationCap, Briefcase } from "lucide-react";
 const Internships = () => {
   // Sample internship data - you can easily add more internships here
   const internships = [
-    {
-      name: "Full Stack Web Development Internship",
-      description: "Comprehensive hands-on training in modern web development technologies and frameworks.",
-      duration: "6 months",
-      charges: "$1,200",
-      skillsEarned: ["React", "Node.js", "MongoDB", "Express.js", "JavaScript", "TypeScript", "Git"],
-      requirements: [
-        "Basic knowledge of HTML, CSS, and JavaScript",
-        "Completed high school or equivalent",
-        "Dedication to commit 20+ hours per week",
-        "Own laptop/computer with internet access"
-      ]
-    },
-    {
+    
+    /*{
       name: "Data Science & Analytics Internship",
       description: "Learn data analysis, machine learning, and statistical modeling with real-world projects.",
       duration: "4 months",
       charges: "$900",
       skillsEarned: ["Python", "Pandas", "NumPy", "Matplotlib", "SQL", "Machine Learning", "Statistics"],
       requirements: [
-        "Basic mathematics and statistics knowledge",
-        "Familiarity with Python or willingness to learn",
-        "Bachelor's degree in progress or completed",
-        "Strong analytical thinking skills"
+      "Basic mathematics and statistics knowledge",
+      "Familiarity with Python or willingness to learn",
+      "Bachelor's degree in progress or completed",
+      "Strong analytical thinking skills"
       ]
-    },
+    },*/
     {
       name: "Digital Marketing Internship",
       description: "Master modern digital marketing strategies, SEO, social media, and campaign management.",
