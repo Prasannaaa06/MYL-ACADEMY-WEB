@@ -83,7 +83,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">10,000+</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">100+</div>
               <div className="text-muted-foreground">Students Enrolled</div>
             </div>
             <div className="text-center">
@@ -95,7 +95,7 @@ const Index = () => {
               <div className="text-muted-foreground">Average Rating</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500+</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">80+</div>
               <div className="text-muted-foreground">Success Stories</div>
             </div>
           </div>
