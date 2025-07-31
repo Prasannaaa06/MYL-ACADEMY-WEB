@@ -7,7 +7,7 @@ const courses = [
     title: "Python Basics",
     description: "Master modern web development with HTML, CSS, JavaScript, React, and Node.js. Build responsive, dynamic websites and web applications from scratch.",
     duration: "12 weeks",
-    students: 2340,
+    students: 99,
     rating: 4.8,
   },
   {
@@ -15,7 +15,7 @@ const courses = [
     title: "GCP Essentials",
     description: "Learn the core services of Google Cloud Platform including Compute Engine, Cloud Storage, App Engine, and networking. Get hands-on experience with cloud infrastructure, deployment, and scaling.",
     duration: "12 weeks",
-    students: 1850,
+    students: 100,
     rating: 4.7,
   },
   {
@@ -23,7 +23,7 @@ const courses = [
     title: "AWS Essentials",
     description: "Understand the basics of Amazon Web Services including EC2, S3, IAM, VPC, and Lambda. This course provides practical knowledge of cloud infrastructure, deployment, and scaling in AWS environments.",
     duration: "12 weeks",
-    students: 3120,
+    students: 80,
     rating: 4.6,
   },
   {
@@ -31,7 +31,7 @@ const courses = [
     title: "Linux RHEL",
     description: "Master essential Linux commands, user and file management, permissions, networking, and system services with a focus on Red Hat Enterprise Linux. Ideal for IT beginners and aspiring system admins.",
     duration: "12 weeks",
-    students: 1960,
+    students: 60,
     rating: 4.9,
   },
   {
@@ -39,7 +39,7 @@ const courses = [
     title: "Ansible Automation",
     description: "Learn how to automate IT infrastructure using Ansible. Understand playbooks, roles, inventory files, and real-world automation tasks for system provisioning and configuration management.",
     duration: "12 weeks",
-    students: 1450,
+    students: 45,
     rating: 4.7,
   },
   
