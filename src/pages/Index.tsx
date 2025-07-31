@@ -136,11 +136,11 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose Our Academy?
+              Why Choose MYL ACADEMY?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We provide more than just education - we offer a complete learning experience 
-              designed to help you succeed in your career goals.
+              designed to help you succeed in your career goals at MYL ACADEMY.
             </p>
           </div>
 
@@ -183,7 +183,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-card text-center max-w-4xl mx-auto hero-gradient text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Start Your Learning Journey?
+              Ready to Start Your Learning Journey at MYL ACADEMY?
             </h2>
             <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
               Join thousands of successful students and take the first step towards your dream career today.

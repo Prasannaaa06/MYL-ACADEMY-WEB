@@ -11,7 +11,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About Our Academy
+              About MYL ACADEMY
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We're passionate about transforming lives through quality education, 
@@ -30,7 +30,7 @@ const About = () => {
                 Our Mission
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                At our Academy, we believe that everyone deserves access to high-quality education 
+                At MYL ACADEMY, we believe that everyone deserves access to high-quality education 
                 that empowers them to achieve their career goals. Our mission is to bridge the gap 
                 between traditional education and industry demands by providing practical, 
                 hands-on learning experiences.
@@ -174,7 +174,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-card text-center max-w-4xl mx-auto hero-gradient text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Transform Your Future?
+              Ready to Transform Your Future with MYL ACADEMY?
             </h2>
             <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
               Join our community of learners and start your journey towards a successful career today.

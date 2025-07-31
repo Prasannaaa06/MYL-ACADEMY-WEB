@@ -21,9 +21,13 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <GraduationCap className="h-8 w-8 text-primary transition-transform group-hover:scale-110" />
-            <span className="text-xl font-bold text-foreground">Academy</span>
+          <Link to="/" className="flex items-center space-x-3 group">
+            <img 
+              src="/lovable-uploads/6ed9742b-22b8-4549-b904-b2885769067e.png" 
+              alt="MYL Academy Logo" 
+              className="h-10 w-10 transition-transform group-hover:scale-110"
+            />
+            <span className="text-xl font-bold text-foreground">MYL ACADEMY</span>
           </Link>
 
           {/* Desktop Navigation */}
