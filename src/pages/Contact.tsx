@@ -104,7 +104,7 @@ const Contact = () => {
                 <Button 
                   size="lg" 
                   className="w-full"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://forms.gle/xwNyUuvy7KREG3m59', '_blank')}
                 >
                   Send Enquiry
                 </Button>
