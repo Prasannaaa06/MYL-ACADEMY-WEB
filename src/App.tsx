@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Courses from "./pages/Courses";
+import Internships from "./pages/Internships";
 import Contact from "./pages/Contact";
 import CourseDetail from "./pages/CourseDetail";
 import NotFound from "./pages/NotFound";
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/internships" element={<Internships />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/course/:courseId" element={<CourseDetail />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
