@@ -2,6 +2,11 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Clock, Users, Star } from "lucide-react";
+import pythonImage from "@/assets/python-course.jpg";
+import gcpImage from "@/assets/gcp-course.jpg";
+import awsImage from "@/assets/aws-course.jpg";
+import linuxImage from "@/assets/linux-course.jpg";
+import ansibleImage from "@/assets/ansible-course.jpg";
 
 interface CourseCardProps {
   id: string;
@@ -14,13 +19,31 @@ interface CourseCardProps {
 }
 
 const CourseCard = ({ id, title, description, duration, students, rating }: CourseCardProps) => {
+  const getImageForCourse = (courseId: string) => {
+    switch (courseId) {
+      case "web-development":
+        return pythonImage;
+      case "data-science":
+        return gcpImage;
+      case "digital-marketing":
+        return awsImage;
+      case "graphic-design":
+        return linuxImage;
+      case "mobile-development":
+        return ansibleImage;
+      default:
+        return pythonImage;
+    }
+  };
   return (
     <Card className="group h-full bg-card border-border hover:border-primary/20 transition-all duration-300 hover:shadow-hover transform hover:-translate-y-1">
       <CardHeader className="space-y-4">
-        <div className="w-full h-48 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-lg flex items-center justify-center">
-          <div className="text-6xl opacity-100 group-hover:opacity-100 transition-opacity">
-            ❤️
-          </div>
+        <div className="w-full h-48 overflow-hidden rounded-lg">
+          <img 
+            src={getImageForCourse(id)} 
+            alt={`${title} course preview`}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
         </div>
         <div>
           <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
