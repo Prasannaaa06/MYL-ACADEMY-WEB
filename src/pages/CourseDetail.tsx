@@ -5,13 +5,13 @@ import { Clock, Users, Star, Calendar, Award, BookOpen, CheckCircle, User } from
 
 const coursesData = {
   "web-development": {
-    title: "Web Development",
-    description: "Master modern web development with HTML, CSS, JavaScript, React, and Node.js. Build responsive, dynamic websites and web applications from scratch.",
+    title: "Python Basics",
+    description: "Learn the fundamentals of Python programming, covering variables, loops, conditionals, functions, and basic data structures. Perfect for beginners.",
     duration: "12 weeks",
-    students: 2340,
+    students: 99,
     rating: 4.8,
-    level: "Beginner to Intermediate",
-    price: "$899",
+    level: "Beginner to Advance",
+    price: "₹8,000",
     mentor: {
       name: "Sarah Johnson",
       title: "Senior Full Stack Developer",
@@ -36,13 +36,13 @@ const coursesData = {
     nextStart: "February 15, 2024"
   },
   "data-science": {
-    title: "Data Science",
-    description: "Learn data analysis, machine learning, and statistical modeling using Python, pandas, and scikit-learn to extract insights from complex datasets.",
+    title: "GCP Essentials",
+    description: "Learn the core services of Google Cloud Platform including Compute Engine, Cloud Storage, App Engine, and networking. Get hands-on experience with cloud infrastructure, deployment, and scaling.",
     duration: "16 weeks",
     students: 1850,
     rating: 4.7,
     level: "Intermediate",
-    price: "$1,299",
+    price: "₹8,000",
     mentor: {
       name: "Dr. Michael Chen",
       title: "Data Science Lead",
@@ -67,13 +67,13 @@ const coursesData = {
     nextStart: "March 1, 2024"
   },
   "digital-marketing": {
-    title: "Digital Marketing",
-    description: "Discover SEO, social media marketing, content strategy, and analytics to grow your online presence and drive measurable business results.",
+    title: "AWS Essentials",
+    description: "Understand the basics of Amazon Web Services including EC2, S3, IAM, VPC, and Lambda. This course provides practical knowledge of cloud infrastructure, deployment, and scaling in AWS environments.",
     duration: "8 weeks",
     students: 3120,
     rating: 4.6,
     level: "Beginner",
-    price: "$599",
+    price: "₹8,000",
     mentor: {
       name: "Emily Rodriguez",
       title: "Digital Marketing Director",
@@ -98,13 +98,13 @@ const coursesData = {
     nextStart: "February 10, 2024"
   },
   "graphic-design": {
-    title: "Graphic Design",
-    description: "Create stunning visual designs using Adobe Creative Suite, typography principles, and brand identity development techniques for digital and print media.",
+    title: "Linux RHEL",
+    description: "Master essential Linux commands, user and file management, permissions, networking, and system services with a focus on Red Hat Enterprise Linux. Ideal for IT beginners and aspiring system admins.",
     duration: "10 weeks",
     students: 1960,
     rating: 4.9,
     level: "Beginner to Intermediate",
-    price: "$799",
+    price: "₹8,000",
     mentor: {
       name: "Alex Thompson",
       title: "Creative Director",
@@ -129,13 +129,13 @@ const coursesData = {
     nextStart: "February 20, 2024"
   },
   "mobile-development": {
-    title: "Mobile Development",
-    description: "Build native mobile apps for iOS and Android using React Native, Flutter, or native development frameworks with modern development tools.",
+    title: "Ansible Automation",
+    description: "Learn how to automate IT infrastructure using Ansible. Understand playbooks, roles, inventory files, and real-world automation tasks for system provisioning and configuration management.",
     duration: "14 weeks",
     students: 1450,
     rating: 4.7,
     level: "Intermediate to Advanced",
-    price: "$1,199",
+    price: "₹8,000",
     mentor: {
       name: "David Kim",
       title: "Mobile App Architect",
@@ -226,7 +226,7 @@ const CourseDetail = () => {
                 <Button 
                   size="lg" 
                   className="mt-4 md:mt-0"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://forms.gle/j3KraGJDFjCKKTxr6', '_blank')}
                 >
                   Enroll Now
                 </Button>

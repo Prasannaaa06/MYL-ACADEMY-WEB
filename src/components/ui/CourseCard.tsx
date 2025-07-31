@@ -18,11 +18,10 @@ const CourseCard = ({ id, title, description, duration, students, rating }: Cour
     <Card className="group h-full bg-card border-border hover:border-primary/20 transition-all duration-300 hover:shadow-hover transform hover:-translate-y-1">
       <CardHeader className="space-y-4">
         <div className="w-full h-48 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-lg flex items-center justify-center">
-          <div className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity">
-            📚
+          <div className="text-6xl opacity-100 group-hover:opacity-100 transition-opacity">
+            ❤️
           </div>
         </div>
-        
         <div>
           <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
             {title}
