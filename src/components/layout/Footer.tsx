@@ -71,27 +71,27 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/course/web-development" className="text-muted-foreground hover:text-primary transition-colors">
-                  Web Development
+                  Python Basics
                 </Link>
               </li>
               <li>
                 <Link to="/course/data-science" className="text-muted-foreground hover:text-primary transition-colors">
-                  Data Science
+                  GCP Essential
                 </Link>
               </li>
               <li>
                 <Link to="/course/digital-marketing" className="text-muted-foreground hover:text-primary transition-colors">
-                  Digital Marketing
+                  AWS Essentials
                 </Link>
               </li>
               <li>
                 <Link to="/course/graphic-design" className="text-muted-foreground hover:text-primary transition-colors">
-                  Graphic Design
+                  Linux RHEL
                 </Link>
               </li>
               <li>
                 <Link to="/course/mobile-development" className="text-muted-foreground hover:text-primary transition-colors">
-                  Mobile Development
+                  Ansible
                 </Link>
               </li>
             </ul>

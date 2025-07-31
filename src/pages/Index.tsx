@@ -59,7 +59,7 @@ const Index = () => {
               <span className="block text-secondary">Quality Education</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">
-              Join thousands of students who have advanced their careers with our comprehensive, 
+              Join hundreds of students who have advanced their careers with our comprehensive, 
               industry-focused courses taught by expert instructors.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -161,7 +161,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">Certified Programs</h3>
               <p className="text-muted-foreground">
-                Earn industry-recognized certificates that validate your skills and boost your career prospects.
+                Earn certificates that validate your skills and boost your career prospects.
               </p>
             </div>
 

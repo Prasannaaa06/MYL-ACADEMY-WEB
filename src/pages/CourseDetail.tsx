@@ -7,7 +7,7 @@ const coursesData = {
   "web-development": {
     title: "Python Basics",
     description: "Learn the fundamentals of Python programming, covering variables, loops, conditionals, functions, and basic data structures. Perfect for beginners.",
-    duration: "12 weeks",
+    duration: "4 weeks",
     students: 99,
     rating: 4.8,
     level: "Beginner to Advance",
@@ -44,7 +44,7 @@ const coursesData = {
 ],
     skills: ["HTML/CSS", "JavaScript", "React", "Node.js", "MongoDB", "Git"],
     schedule: "Monday, Wednesday, Friday - 7:00 PM to 9:00 PM",
-    nextStart: "February 15, 2024"
+    nextStart: ""
   },
   "data-science": {
     title: "GCP Essentials",
@@ -89,13 +89,13 @@ const coursesData = {
     ],
     skills: ["Python", "Pandas", "Machine Learning", "Statistics", "Data Visualization", "SQL"],
     schedule: "Tuesday, Thursday - 6:30 PM to 9:00 PM",
-    nextStart: "March 1, 2024"
+    nextStart: ""
   },
   "digital-marketing": {
     title: "AWS Essentials",
     description: "Understand the basics of Amazon Web Services including EC2, S3, IAM, VPC, and Lambda. This course provides practical knowledge of cloud infrastructure, deployment, and scaling in AWS environments.",
     duration: "8 weeks",
-    students: 3120,
+    students: "",
     rating: 4.6,
     level: "Beginner",
     price: "₹8,000",
@@ -107,17 +107,24 @@ const coursesData = {
       bio: "Emily has helped dozens of companies scale their online presence and increase revenue through strategic digital marketing campaigns. She specializes in data-driven marketing and ROI optimization."
     },
     syllabus: [
-      "Digital Marketing Fundamentals",
-      "Search Engine Optimization (SEO)",
-      "Google Ads & PPC Campaigns",
-      "Social Media Marketing Strategy",
-      "Content Marketing & Copywriting",
-      "Email Marketing Automation",
-      "Analytics & Performance Tracking",
-      "Conversion Rate Optimization",
-      "Marketing Campaign Planning",
-      "Real Campaign Implementation"
-    ],
+  "Introduction to Cloud Computing and AWS Fundamentals",
+  "AWS Network Services – VPC, Route Tables, NACL, Transit Gateway, VPC Endpoints",
+  "AWS Computing Services – EC2, RDS, ECS, EKS",
+  "AWS Serverless Services – Elastic Beanstalk, Lambda",
+  "AWS Endpoint Services – Load Balancer, API Gateway, CloudFront",
+  "AWS Storage Services – S3, EBS, EFS",
+  "Advanced AWS Application Architectures",
+  "AWS Observability Tools and Monitoring",
+  "Real-world Production Use Cases",
+  "Introduction to DevOps (12 hours, 3 days)",
+  "Site Reliability Engineering (SRE) Principles",
+  "Overview of Key DevOps Tools",
+  "Understanding CI/CD Pipelines",
+  "Blue-Green Deployment Strategy",
+  "Product Quality and Testing Concepts",
+  "Production Deployment Use Cases"
+],
+
     skills: ["SEO", "Google Ads", "Social Media", "Content Marketing", "Analytics", "Email Marketing"],
     schedule: "Saturday - 10:00 AM to 2:00 PM",
     nextStart: "February 10, 2024"
@@ -255,7 +262,7 @@ const CourseDetail = () => {
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
                 <div>
                   <div className="text-3xl font-bold text-primary mb-2">{course.price}</div>
-                  <div className="text-muted-foreground">Next cohort starts: {course.nextStart}</div>
+                  <div className="text-muted-foreground">{course.nextStart}</div>
                 </div>
                 <Button 
                   size="lg" 
