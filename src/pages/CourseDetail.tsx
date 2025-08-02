@@ -13,11 +13,11 @@ const coursesData = {
     level: "Beginner to Advance",
     price: "₹8,000",
     mentor: {
-      name: "Sarah Johnson",
-      title: "Senior Full Stack Developer",
-      experience: "8+ years",
-      company: "Tech Innovations Inc.",
-      bio: "Sarah is a passionate full-stack developer with extensive experience in modern web technologies. She has led development teams at several tech startups and enjoys sharing her knowledge with aspiring developers."
+      name: "",
+      title: "",
+      experience: "",
+      company: "",
+      bio: ""
     },
     syllabus: [
       "Introduction to Python",
